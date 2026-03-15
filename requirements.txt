@@ -1,0 +1,27 @@
+# Telegram Client API
+telethon==1.36.0
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# Async SQLite for message storage
+aiosqlite==0.20.0
+
+# Async utilities
+aiofiles==24.1.0
+
+# Async HTTP (used by OpenRouter client, solana-swap)
+aiohttp>=3.9.0
+
+# For AI processing (optional — only if using openai client directly)
+openai==1.58.1
+
+# HTTP requests for Telegram Bot API
+requests==2.31.0
+
+# Solana blockchain interaction
+solana==0.34.0
+solders>=0.21.0,<0.22.0
+base58==2.1.1
+# Solana swap library (install from: git+https://github.com/YZYLAB/solana-swap-python.git)
+# Note: Install manually with: pip install git+https://github.com/YZYLAB/solana-swap-python.git

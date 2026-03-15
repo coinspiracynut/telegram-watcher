@@ -1,0 +1,38 @@
+# Environment
+.env
+venv/
+.venv/
+
+# Telegram session files
+*.session
+*.session-journal
+
+# Database
+messages.db
+messages.db-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node
+node_modules/
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Example/temp data
+example_messages.json
+example_tokens.json
+rick_message_entities.md
